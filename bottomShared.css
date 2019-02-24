@@ -1,0 +1,13 @@
+.bottomSection {
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width:40%;
+}
+.tag{
+    width:10%;
+}
+.contact{
+    width:20%;
+}

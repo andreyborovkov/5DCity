@@ -11,6 +11,7 @@
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
 	height: 210px;
+	width: 230px;
 }
 .rapCalendar table{
 	margin:0px auto;

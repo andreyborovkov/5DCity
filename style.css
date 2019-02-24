@@ -100,7 +100,7 @@ header img{
 .site-content {
 margin-top: 170px;
 display:flex;
-justify-content: space-between;
+justify-content: space-around;
 }
 
 .temp {
@@ -113,7 +113,6 @@ justify-content: space-between;
 }
 .undecided{
   width: 20%;
-  margin-right:2em;
   text-align: center;
 }
 
@@ -122,8 +121,12 @@ justify-content: space-between;
   height: 240px;
 }
 .temp p{
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
+}
+
+.perm p{
+  font-size: 25px;
 }
 
 /* Carousel*/
