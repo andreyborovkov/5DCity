@@ -17,11 +17,11 @@
   <nav id="main">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#">Temporary & Small Decoration</a></li>
       <li><a href="#">Permament Projects</a></li>
       <li><a href="#">Design Projects in Demand</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
   <header>
@@ -32,52 +32,89 @@
 <div class=site-content>
   <div class=firstColumn>
     <h2>Gallery</h2>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Trigger the Modal -->
     <div class=galleryPictures>
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
-      <img src="pictures/Flags1.jpg">
+      <img class="myImg" src="./pictures/Turetskiy2.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy4.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy5.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy6-1.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy7.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy9.jpg" alt="Description">
+      <img class="myImg" src="./pictures/PublicSquare.jpg" alt="Description">
+      <img class="myImg" src="./pictures/FL_V2.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy1.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy4.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy5.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy6-1.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy7.jpg" alt="Description">
+      <img class="myImg" src="./pictures/Turetskiy9.jpg" alt="Description">
+      <img class="myImg" src="./pictures/PublicSquare.jpg" alt="Description">
+      <img class="myImg" src="./pictures/FL_V2.jpg" alt="Description">
     </div>
+
+    
+    
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+    <!--<div class=galleryPictures>
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+      <img src="pictures/Flags1.jpg">
+    </div>-->
 
     <h2>More Works</h2>
     <div class=galleryPictures>
-        <img src="pictures/Flags1.jpg">
         <img src="pictures/Flags1.jpg">
         <img src="pictures/Flags1.jpg">
         <img src="pictures/Flags1.jpg">
@@ -101,15 +138,15 @@
 </div>
 
 <div class=bottomSection>
-  <div class=about>
+  <div id=about>
     <h2>About Us:</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
-  <div class=tag>
+  <div id=tag>
     <h2>Tags</h2>
 
   </div>
-  <div class=contact>
+  <div id=contact>
     <h2>Contact</h2>
 
   </div>
@@ -118,7 +155,8 @@
 
 
 <footer>&copy; 2018<script>new Date().getFullYear()>2018&&document.write("-"+new Date().getFullYear());</script>, 5D City Ltd.</footer>
-<script src="./script.js"></script>
+<script src="./gallery.js"></script>
+
 
 </body>
 </html>

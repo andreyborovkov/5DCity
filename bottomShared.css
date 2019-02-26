@@ -1,13 +1,18 @@
 .bottomSection {
+    margin-top: 2em;
     display: flex;
     justify-content: space-between;
+    background: lightsalmon;
+    text-align: center;
 }
-.about{
+#about{
     width:40%;
+    padding-left:2em;
 }
-.tag{
+#tag{
     width:10%;
 }
-.contact{
+#contact{
     width:20%;
+    padding-right: 2em;
 }
