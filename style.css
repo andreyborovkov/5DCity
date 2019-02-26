@@ -100,7 +100,7 @@ header img{
 .site-content {
 margin-top: 170px;
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 .temp {

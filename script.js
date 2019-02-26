@@ -48,5 +48,3 @@ addSliderEventListeners();
     }, 4000);
   }
 
-
-  //Calendar
