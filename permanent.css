@@ -22,7 +22,6 @@
 .secondColumn {
   display:flex;
   width: 30%;
-  background:lightcoral;
   margin-right:2em;
   text-align: center;
   justify-content: space-around;
@@ -32,10 +31,6 @@
  height: 200px;
  width: 300px;
 }
-
-
-
-
 
 
 
@@ -122,6 +117,7 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
