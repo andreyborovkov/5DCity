@@ -5,8 +5,7 @@
   <title>5D City</title>
   <link rel="shortcut icon" href="./pictures/favicon2.ico" type="image/x-icon">
   <link rel="icon" href="./pictures/favicon2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="bottomShared.css">
+  <link rel="stylesheet" href="shared.css">
   <link rel="stylesheet" href="permanent.css">
 
 
@@ -88,7 +87,29 @@
         <h2>Design Process</h2>
         <img src="pictures/Flags1.jpg">
         <h2>Contact</h2>
-        <img src="pictures/Flags1.jpg">
+        <form method="post" action="https://www.example.com/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
+        document.charset = 'ISO-8859-1'; window.onbeforeunload = function () {document.charset=originalCharset;};">
+        Your Name
+        <br />
+        <input name="realname" />
+        <br />
+        Your Email
+        <br />
+        <input name="email" />
+        <br />
+        Your Message
+        <br />
+        <textarea cols="40" rows="10" name="Message"></textarea>
+        <br />
+        <input type="submit" value="Send" />
+        <input type="hidden" name="recipient" value="andrey_borovkov@yahoo.com" />
+        <input type="hidden" name="subject" value="Subject" />
+        <input type="hidden" name="redirect" 
+        value="https://www.example.com/thanks.html" />
+        <input type="hidden" name="missing_fields_redirect" 
+        value="https://www.example.com/error.html" />
+        <input type="hidden" name="required" value="realname,email,Message" />
+        </form>
     </div>
   </div>
 </div>
@@ -104,7 +125,8 @@
   </div>
   <div id=contact>
     <h2>Contact</h2>
-
+    <img src="./pictures/instagram_logo.png" width="50px" height="50px">
+    <img src="./pictures/facebook_logo.png" width="50px" height="50px">
   </div>
 </div>
 
