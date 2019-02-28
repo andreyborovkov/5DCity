@@ -3,6 +3,7 @@ html {
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
+    font-family: 'Gotham Pro Regular';
   }
   
   body {
@@ -19,7 +20,7 @@ html {
   /*Navigation Bar*/
   
   nav {
-    background: #F99D1C;
+    background: rgb(24, 92, 99);
     top: 0;
     width: 100%;
     transition: all 0.5s;
@@ -137,3 +138,15 @@ footer{
     text-align: center;
   }
   
+
+
+  @font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('./fonts/GothamPro.eot');
+    src: url('./fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/GothamPro.woff') format('woff'),
+    url('./fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
