@@ -14,12 +14,7 @@ body {
   box-sizing: inherit;
 }
 
-.navbarAndHeader{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index:1;
-}
+
 
 /*Navigation Bar*/
 
@@ -29,6 +24,11 @@ nav {
   width: 100%;
   transition: all 0.5s;
   font-size: 17px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  height:60px;
 }
 
 .fixed-nav nav {
@@ -89,7 +89,8 @@ header {
   background-position: fixed;
   display:flex;
   justify-content: center;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-top: 60px;
 }
 
 header img{
@@ -98,7 +99,6 @@ header img{
 
 /*Content*/
 .site-content {
-margin-top: 170px;
 display:flex;
 justify-content: space-between;
 }
@@ -231,6 +231,7 @@ footer{
   position: relative;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:1em;
 }
 
 .image {
@@ -266,11 +267,11 @@ footer{
   font-size: 16px;
   padding: 16px 32px;
 }
-.perm a {
+.temp a, .perm a {
   color:white;
   text-decoration: none;
 }
-.perm a:hover {
+.temp a:hover, .perm a:hover {
   color:black;
 }
 

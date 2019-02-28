@@ -4,6 +4,7 @@
     justify-content: space-between;
     background: lightsalmon;
     text-align: center;
+    border: 1px solid black;
 }
 #about{
     width:40%;
@@ -15,4 +16,14 @@
 #contact{
     width:20%;
     padding-right: 2em;
+}
+
+#contact img {
+    height: 50px;
+    width: 50px;
+    padding:0.5em;
+}
+#contact img:hover {
+    opacity: 1;
+    filter: brightness(1.2); 
 }
