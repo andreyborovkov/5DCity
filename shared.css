@@ -8,7 +8,7 @@ html {
   
   body {
     margin: 0;
-    background: #f0f0f0
+    background: rgb(187, 204, 206);
   }
   
   *, *:before, *:after {
@@ -21,6 +21,7 @@ html {
   
   nav {
     background: rgb(24, 92, 99);
+    background-image: linear-gradient(to right, rgb(24, 92, 99), rgb(57, 154, 165), rgb(52, 131, 139));
     top: 0;
     width: 100%;
     transition: all 0.5s;
@@ -107,7 +108,7 @@ html {
 .bottomSection {
     display: flex;
     justify-content: space-between;
-    background: lightsalmon;
+    background: rgb(140, 171, 175);
     text-align: center;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }

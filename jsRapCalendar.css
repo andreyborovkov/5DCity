@@ -16,7 +16,7 @@
 .rapCalendar table{
 	margin:0px auto;
 	border-spacing: 0px;
-    border-collapse:separate;
+	border-collapse:separate;
 }
 .rapCalendar caption{
 	color:#F99D1C;
@@ -57,9 +57,6 @@
 .rapCalendar .larr:before{
 	content:"◄";
 }
-.rapCalendar .larr:hover{
-	color:white;
-}
 .rapCalendar .rarr{
 	color:#F99D1C;
 	cursor:pointer;
@@ -68,6 +65,6 @@
 .rapCalendar .rarr:before{
 	content:"►";
 }
-.rapCalendar .rarr:hover{
-	color:white;
+.rapCalendar .larr:hover ,.rapCalendar .rarr:hover{
+	color:rgb(192, 114, 24);
 }
