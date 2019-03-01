@@ -1,0 +1,42 @@
+.firstColumn{
+    margin-left:2em;
+    width:35%;
+}
+.secondColumn{
+    margin-right:2em;
+    width:35%;
+}
+.sectionName{
+    background:lightgrey;
+    border-bottom:0;
+    padding:1em 0;
+    text-align: center;
+    margin:1em 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.listing{
+    display:flex;
+    height:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:2em;
+}
+
+.leftListingSection{
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.leftListingSection img{
+    width:100px;
+
+}
+.rightListingSection{
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+}

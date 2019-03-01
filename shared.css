@@ -8,7 +8,7 @@ html {
   
   body {
     margin: 0;
-    background: rgb(187, 204, 206);
+    background: rgb(211, 218, 219);
   }
   
   *, *:before, *:after {
@@ -91,8 +91,11 @@ html {
     background-position: fixed;
     display:flex;
     justify-content: center;
+    align-items: center;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     margin-top: 60px;
+    color:whitesmoke;
+    text-shadow:-1px 0px black,0px 1px black,1px 0px black,0px -1px black;
   }
   
   header img{
@@ -132,9 +135,15 @@ html {
 }
 
 footer{
-  padding: 1em 0;
+    height:120px;
     text-align: center;
-  }
+    background:url("./pictures/experiment.jpg") bottom;
+    opacity:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+}
   
 
 
