@@ -4,7 +4,7 @@
 	padding:8px;
 	box-shadow:4px 4px 6px #000;
 	border-radius:8px;
-	background: rgb(240, 196, 131);
+	background: radial-gradient( rgb(224, 232, 233),rgb(173, 187, 196));
 	color:#ffe;
 	padding:8px;
 	text-shadow:-1px 0px black,0px 1px black,1px 0px black,0px -1px black;
@@ -19,11 +19,11 @@
 	border-collapse:separate;
 }
 .rapCalendar caption{
-	color:#F99D1C;
+	color:rgb(179, 199, 211);
 	font-weight:bold;
 }
 .rapCalendar thead{
-	color:rgb(245, 163, 49);
+	color:rgb(179, 199, 211);
 	text-shadow:-1px 0px black,0px 1px black,1px 0px black,0px -1px black;
 }
 .rapCalendar tbody td{
@@ -37,20 +37,20 @@
 }
 .rapCalendar .calSelectable:hover{
 	border-color:black;
-	background-color:#F99D1C;
+	background-color:rgb(204, 223, 235);
 	border-radius:8px;
 	cursor:pointer;
 	font-weight:bold;
 }
 .rapCalendar .calSelected{
 	border-color:black;
-	background-color:#F99D1C;
+	background-color:rgb(179, 199, 211);
 	border-radius:8px;
 	font-weight:bold;
 	text-shadow:0px 0px 4px black;
 }
 .rapCalendar .larr{
-	color:#F99D1C;
+	color:rgb(145, 176, 196);
 	cursor:pointer;
 	float:left;
 }
@@ -58,7 +58,7 @@
 	content:"◄";
 }
 .rapCalendar .rarr{
-	color:#F99D1C;
+	color:rgb(145, 176, 196);
 	cursor:pointer;
 	float:right;
 }
@@ -66,5 +66,5 @@
 	content:"►";
 }
 .rapCalendar .larr:hover ,.rapCalendar .rarr:hover{
-	color:rgb(192, 114, 24);
+	color:rgb(108, 141, 163);
 }

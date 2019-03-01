@@ -116,9 +116,6 @@ html {
     width:40%;
     padding-left:2em;
 }
-#tag{
-    width:10%;
-}
 #contact{
     width:20%;
     padding-right: 2em;
@@ -135,7 +132,7 @@ html {
 }
 
 footer{
-    margin: 1em 0;
+  padding: 1em 0;
     text-align: center;
   }
   
