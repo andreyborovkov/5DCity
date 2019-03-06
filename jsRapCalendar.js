@@ -136,8 +136,12 @@ return this.each(function(){
 
 }})(jQuery);
 
-
+/*
 $(function(){
 	  $('#demo').jsRapCalendar();
 	});
 	
+*/
+$('#demo').jsRapCalendar({
+	enabled:false
+  });
